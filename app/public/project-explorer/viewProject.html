@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="navbar bg-primary">
+        <nav class=" navbar-nav d-flex flex-row  ">
+            <h1 class="navbar-brand text-white ">Project Explorer</h1>
+            <form class="form-inline " name="searchForm">
+                <input type="text" class="form-control ml-4" placeholder="Search Projects">
+                <button class="btn btn-outline-light btn-primary ml-2 " type="submit">Search</button>
+            </form>
+    
+        </nav>
+        <div class="d-flex justify-content-end align-self-center mr-2 pr-3  ">
+            <a class="pr-3 text-secondary" href="#">Sign up</a>
+            <a class="pr-3 text-secondary " href="#">Login</a>
+        </div>
+    </header>
+    
+    <main>
+        <section class="container my-5">
+            <div>
+                <h4>Project 1</h4>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <p>Created by</p>
+                    <p>Ade Chris</p>
+                </div>
+                <div class="col-3">
+                    <p>Date Created</p>
+                    <p>2020/08/30</p>
+                </div>
+                <div class="col-3">
+                    <p>Last Updated</p>
+                    <p>2020/08/30</p>
+                </div>
+                <div class="d-flex justify-content-end m-1 align-items-center">
+                    <button class="btn btn-primary">Edit Project</button>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Project Abstract</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, ipsum praesentium reiciendis sit est quis repellat et sequi quam perferendis asperiores debitis animi similique incidunt temporibus quos officia obcaecati pariatur qui tempora ipsam minus explicabo consequatur eum. Inventore minima est iusto suscipit enim at sequi fuga deleniti ratione cupiditate cumque dolorem, ipsum veniam nisi adipisci. Omnis velit expedita magnam non repellat quidem molestias autem reiciendis tempora, accusamus, voluptatem inventore ducimus!</p>
+                    <form action="">
+                        <div class="form-group">
+                            <label>Project abstract</label>
+                            <textarea name="abstract" cols="30" class="form-control" rows="10"></textarea><br />
+                        </div>
+                        <button class="btn btn-primary">Save</button>
+                    </form>
+                </div>
+                <div class="col">
+                    <h2>Project Details</h2>
+                    <div class="card mb-2">
+                        <h5 class="card-header">Author(s)</h5>
+                        <div class="card-body">Ade Chris</div>
+                        <div class="card-footer  ">#web</div>
+                    </div>
+                    <div class="card">
+                        <h5 class="card-header">Project Files</h5>
+                        <div class="card-body mx-auto">No file uploaded yet</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="d-flex justify-content-end mt-5 mr-5 align-items-center">
+        <p><small> Project Explorer &copy 2020</small> - <strong>Edconnect</strong></p>
+    </footer>
+</body>
+</html>
